@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+    <link rel="icon" href="images/Kavan.png" style="  filter: invert(100%);  " sizes="50x50">
+
+    <link href="https://unpkg.com/pattern.css" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Audiowide|Kanit|Trirong|Raleway|Geologica|Montserrat|Roboto Mono|Noto Sans|Roboto Slab|Ubuntu|Space Grotesk|Rajdhani|Poppins|Oswald|Raleway|Dosis|Prompt">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Kavan Bakori</title>
+</head>
+
+<body>
+
+    <!-- navbaar -->
+    <nav class="bg-white dark:bg-gray-900 fixed w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600"
+        style="background:rgba(255, 255, 255, 0.773);
+backdrop-filter: blur(10px);">
+        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+            <a href="" class="flex items-center space-x-3 rtl:space-x-reverse">
+                <img src="./images/Kavan-logo.png" width="120" alt="">
+            </a>
+            <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
+                <div class="flex mt-4 sm:justify-center sm:mt-0">
+                    <a href="https://www.instagram.com/_kavan_99/?hl=en"><i class="fa fa-instagram"
+                            onmouseover="this.style.color=`#e76a62`;" onmouseout="this.style.color='grey';"
+                            style="font-size:1.5rem;color:grey;margin-inline: 10px;"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/kavan-bakori-b7591b25b/"> <i class="fa fa-linkedin"
+                            onmouseover="this.style.color=`#2563eb`;" onmouseout="this.style.color='grey';"
+                            style="font-size:1.5rem;color:grey"></i>
+                    </a>
+                    <a href="mailto:kavan2269@gmail.com"> <i class="fa fa-envelope"
+                            onmouseover="this.style.color=`#FFA500`;" onmouseout="this.style.color='grey';"
+                            style="font-size:1.5rem;color:grey;margin-inline: 10px;"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
+                <ul
+                    class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg  md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0  dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+                    <li>
+                        <a href="#"
+                            class="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500"
+                            aria-current="page">Home</a>
+                    </li>
+                    <li>
+                        <a href="#About me"
+                            class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">About
+                            me</a>
+                    </li>
+                    <li>
+                        <a href="#Services"
+                            class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Services</a>
+                    </li>
+                    <li>
+                        <a href="#Projects"
+                            class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Projects</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- hero -->
+    <section class="relative py-32 " style="background-color: rgba(232,237,240,255);">
+        <div class="mx-auto lg:max-w-7xl w-full px-5 sm:px-10 md:px-12 lg:px-5 flex flex-col lg:flex-row gap-10 lg:gap-12"
+            style="margin-top: 100px;">
+            <div class="absolute w-full lg:w-1/2 inset-y-0 lg:right-0 hidden lg:block">
+                <span
+                    class="absolute left-6 md:left-4  w-24 h-24 rotate-90 skew-x-12 rounded-3xl bg-green-400 blur-xl opacity-60 lg:opacity-95 lg:block hidden"
+                    style="top: 150px;"></span>
+                <span class="absolute right-10 bottom-12 w-24 h-24 rounded-3xl bg-blue-600 blur-5xl opacity-90"></span>
+            </div>
+            <span
+                class="w-4/12 lg:w-2/12 aspect-square bg-gradient-to-tr from-blue-600 to-green-400 absolute -top-5 lg:left-0 rounded-full skew-y-12 blur-2xl opacity-40 skew-x-12 rotate-90"></span>
+            <div class="relative flex flex-col items-center text-center lg:text-left lg:py-7 xl:py-8 
+            lg:items-start lg:max-w-none max-w-3xl mx-auto lg:mx-0 lg:flex-1 lg:w-1/2" data-aos="fade-right">
+
+                <h1 class="text-3xl leading-tight sm:text-4xl md:text-5xl xl:text-6xl
+            font-bold text-gray-900">
+                    Hello, <br> I'm a <span class="text-transparent bg-clip-text text-blue-600">Web
+                        Developer</span>
+                </h1>
+
+
+                <h1 class=" leading-tight sm:text-4xl md:text-5xl xl:text-2xl
+            font-bold text-gray-600">
+                    Let's Make & Grow together<br>
+                </h1>
+                <p class="mt-8 text-gray-800">
+                    Enhance your digital journey with me, let's create a superior experience together.
+                </p>
+                <div class="mt-10  w-full flex max-w-md mx-auto lg:mx-0">
+                    <div class="flex sm:flex-row flex-col gap-5 w-full">
+                        <button id="download"
+                            class="flex text-white justify-center items-center w-max min-w-max sm:w-max px-6 h-12 rounded-full outline-none relative overflow-hidden border duration-300 ease-linear
+                                after:absolute after:inset-x-0 after:aspect-square after:scale-0 after:opacity-70 after:origin-center after:duration-300 after:ease-linear after:rounded-full after:top-0 after:left-0 after:bg-[#172554] hover:after:opacity-100 hover:after:scale-[2.5] bg-blue-600 border-transparent hover:border-[#172554] hover:text-blue-500 hover:border-blue-500 hover:bg-transparent">
+                            <span class="hidden sm:flex w-full">
+                                <a class="btn content-download button-main button-scheme"
+                                    href="./images/KAVAN BAKORI.pdf" download="KAVAN BAKORI">Download CV</a>
+                            </span>
+                            <span class="flex sm:hidden relative z-[5]">
+                                <a class="btn content-download button-main button-scheme"
+                                    href="./images/KAVAN BAKORI.pdf" download="KAVAN BAKORI">Download CV</a>
+                            </span>
+                        </button>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="flex flex-1  relative lg:max-w-none lg:mx-0 mx-auto" data-aos="fade-left">
+                <img src="./images/laptop.png" style="margin-top: -25px;" alt="Hero image" width="2350" height="5359"
+                    class="lg:absolute  rounded-3xl ">
+            </div>
+        </div>
+    </section>
+/
+    <!-- About -->
+    <div id="About me"></div>
+    <div class="py-16 bg-white" data-aos="fade-up">
+        <div class="container m-auto px-6 text-gray-600 md:px-12 xl:px-6">
+            <div class="space-y-6 md:space-y-0 md:flex md:gap-6 lg:items-center lg:gap-12">
+                <div class="md:5/12 lg:w-5/12">
+                    <img src="./images/kbremove.jpg"
+                        style="box-shadow: 0 0 60px 0 rgb(221, 221, 221) ; border-radius: 20px;" alt="image"
+                        loading="lazy" width="500" height="">
+                </div>
+                <div class="md:7/12 lg:w-6/12">
+                    <h2 class=" text-gray-900 font-bold " style="font-size: 40px;">About <span
+                            class="text-transparent bg-clip-text text-blue-600">Me</span>
+                    </h2>
+                    <p class="mt-6 text-gray-600">Hello there! I'm Kavan Bakori, a passionate full-stack web developer
+                        with a knack for crafting unique designs and functional websites tailored for companies or
+                        specific needs. I take pride in my ability to deliver exceptional projects within specified
+                        timelines, showcasing my adaptability to various technologies. I'm dedicated to bringing
+                        creativity and efficiency to every project I undertake, and I thrive
+                        on the challenges of creating seamless and visually appealing web experiences. <br> <br>
+
+                    <h2 class="text-2xl text-blue-500">Academics</h2>
+                    I completed my 12th grade in science with an impressive 85% score. Currently, I am
+                    pursuing Information Technology at Charotar University of Science and Technology (CHARUSAT),
+                    maintaining a strong academic performance with a current CGPA of 9.1.
+                    <br> <br>
+
+                    <h1 class="text-center text-2xl font-bold " style="opacity: 0.3;">"Let's collaborate
+                        and bring your digital vision to life!"</h1>
+                    </p>
+
+                    <br>
+                    <br>
+
+                    <div class="flex  gap-x-10 justify-center items-center flex-wrap"
+                        style="margin: auto;row-gap: 20px;">
+                        <!-- <div>
+                            <div id="fullWidthTabContent " style="margin-top: 50px;">
+                                <div class="rounded-lg md:p-8 " id="stats" role="tabpanel" aria-labelledby="stats-tab">
+                                    <dl class="flex justify-center text-center items-center gap-x-10 gap-y-10"
+                                        style="margin: auto;width: 100%;flex-wrap: wrap;">
+                                        <div class="flex flex-col items-center justify-center">
+                                            <dt class="mb-2 text-3xl text-gray-700 font-bold">7+</dt>
+                                            <dd class="text-gray-400">Mini Websites</dd>
+                                        </div>
+                                        <div class="flex flex-col items-center justify-center">
+                                            <dt class="mb-2 text-3xl text-gray-700 font-bold">2+</dt>
+                                            <dd class="text-gray-400">Application UI designs</dd>
+                                        </div>
+
+                                        <div class="flex flex-col items-center justify-center">
+                                            <dt class="mb-2 text-3xl text-gray-700 font-bold">2+</dt>
+                                            <dd class="text-gray-400">Major projects</dd>
+                                        </div>
+                                        <div class="flex flex-col items-center justify-center">
+                                            <dt class="mb-2 text-3xl text-gray-700 font-bold">9.1</dt>
+                                            <dd class="text-gray-400">CGPA</dd>
+                                        </div>
+                                    </dl>
+                                </div>
+                            </div>
+                        </div> -->
+                        <div class="flex flex-col  text-center">
+                            <h1 class="text-gray-900 font-bold text-3xl">7+</h1>
+                            <p>Mini Websites</p>
+                        </div>
+                        <div class=" text-center">
+                            <h1 class="text-gray-900 font-bold text-3xl">2+</h1>
+                            <p>Application UI designs</p>
+                        </div>
+                        <div class=" text-center">
+                            <h1 class="text-gray-900 font-bold text-3xl">9.1</h1>
+                            <p>CGPA</p>
+                        </div>
+                        <div class=" text-center">
+                            <h1 class="text-gray-900 font-bold text-3xl">2+</h1>
+                            <p>Major projects</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Skills -->
+    <div class="logo-slider" data-v-4ef8651c="">
+        <div class="logos-slide" data-v-4ef8651c="" style="display: flex;">
+            <img src="./images/big react.png" data-v-4ef8651c="">
+            <img src="./images/big node.png" data-v-4ef8651c="">
+            <img src="./images/express.png" data-v-4ef8651c="">
+            <img src="./images/big mongo.png" data-v-4ef8651c="">
+            <img src="./images/big flutter.png" data-v-4ef8651c="">
+            <img src="./images/big firebase.png" data-v-4ef8651c="">
+            <img src="./images/big react.png" data-v-4ef8651c="">
+            <img src="./images/big node.png" data-v-4ef8651c="">
+            <img src="./images/express.png" data-v-4ef8651c="">
+            <img src="./images/big mongo.png" data-v-4ef8651c="">
+            <img src="./images/big flutter.png" data-v-4ef8651c="">
+            <img src="./images/big firebase.png" data-v-4ef8651c="">
+
+        </div>
+    </div>
+
+    <!-- services -->
+    <div id="Services">
+        <section class="text-gray-200 bg-gray-900 " style="margin-top: 100px;">
+            <div class="max-w-6xl mx-auto px-2 py-24 ">
+                <div class="text-center mb-20" data-aos="fade-up">
+                    <h1
+                        class=" title-font mb-4 text-4xl font-bold leading-10 tracking-tight sm:text-5xl sm:leading-none md:text-6xl text-green-500">
+                        Services</h1>
+                    <p class="text-center leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">Explore the array of services I
+                        offer, and let's elevate your digital experience together for a seamless journey through
+                        innovation and expertise.</p>
+                    <div class="flex mt-6 justify-center">
+                        <div class="w-16 h-1 rounded-full bg-green-500 inline-flex"></div>
+                    </div>
+                </div>
+
+
+                <div
+                    style="display: flex;flex-wrap: wrap; justify-content: center;flex-direction: row;column-gap: 50px; row-gap: 50px;">
+                    <div class="bg-gray-800 duration-300 ease-linear hover:bg-green-600 hover:text-gray-900 "
+                        style="width: 300px;padding: 15px;border-radius: 10px;" data-aos="fade-up">
+                        <div
+                            class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-red-200 text-green-500 mb-5 flex-shrink-0 p-2">
+                            <img src="./images/computer.png" alt="">
+                        </div>
+                        <div class="flex-grow ">
+                            <h2 class=" text-xl title-font font-medium mb-3">Web design</h2>
+                            <p class="leading-relaxed text-sm text-justify">Crafting professional, visually
+                                striking websites that elevate your online presence. Experience excellence in
+                                design for a standout digital identity. </p>
+                        </div>
+                    </div>
+
+
+                    <div class="bg-gray-800 hover:bg-green-600 hover:text-gray-900"
+                        style="width: 300px;padding: 15px;border-radius: 10px;" data-aos="fade-up">
+                        <div
+                            class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-blue-100 text-blue-500 mb-5 flex-shrink-0">
+                            <img src="./images/android (1).png" alt="" style="width: 30px;">
+                        </div>
+                        <div class="flex-grow">
+                            <h2 class=" text-xl title-font font-medium mb-3">Android development</h2>
+                            <p class="leading-relaxed text-sm text-justify">
+                                Elevate user engagement with my expertise in app design, Craft a unique digital
+                                experience that combines aesthetic appeal with intuitive design. </p>
+                        </div>
+                    </div>
+
+                    <div class="bg-gray-800 hover:bg-green-600 hover:text-gray-900  "
+                        style="border-radius: 10px;width: 300px;padding: 15px;" data-aos="fade-up">
+                        <div
+                            class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-yellow-100 text-yellow-500 mb-5 flex-shrink-0">
+                            <img src="./images/web (1).png" alt="" style="width: 30px;">
+                        </div>
+                        <div class="flex-grow">
+                            <h2 class=" text-xl title-font font-medium mb-3">Web development</h2>
+                            <p class="leading-relaxed text-sm text-justify">
+                                Maximize online impact with my full-stack expertise, blending robust
+                                functionality and polished design for a comprehensive digital presence.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- projects -->
+    <div id="Projects"></div>
+    <div class="mt-24  dark:bg-gray-800 dark:text-white" data-aos="fade-up">
+        <h1 style="text-align: center;"
+            class="title-font mb-4 text-4xl font-bold leading-10 tracking-tight sm:text-5xl sm:leading-none md:text-6xl text-blue-500 dark:text-white">
+            Projects</h1>
+        <p class="text-center leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto" style="padding-inline: 10px;">Explore my web
+            developer journey through these
+            projects, each one a testament to my dedication and passion for coding. Dive into the essence of my work
+            and discover the digital landscapes I've crafted.
+        </p>
+        <div class="flex mt-6 justify-center mb-10">
+            <div class="w-16 h-1 rounded-full bg-blue-500 dark:bg-white inline-flex"></div>
+        </div>
+        <br><br><br>
+
+
+        <div class="flex gap-x-10 justify-center items-center flex-wrap " style="margin: auto;row-gap: 50px;">
+            <a href="#" class="card" data-aos="fade-up">
+                <img src="./images/anilearn.png" class="card__img">
+                <span class="card__footer">
+                    <span>Anilearn</span>
+                    <span>React, ExpressJS, NodeJS, MongoDB</span>
+                </span>
+                <span class="card__action">
+                    <button style="color: white;"><i class="fa fa-github" onmouseover="this.style.color=`#46cf9d`;"
+                            onmouseout="this.style.color='grey';" style="font-size:2rem;color:grey"></i></button>
+                </span>
+            </a>
+
+
+            <a href="#" class="card" data-aos="fade-up">
+                <img src="./images/connect.jfif" class="card__img">
+                <span class="card__footer">
+                    <span>Connectify</span>
+                    <span>React, Bootstrap, Firebase</span>
+                </span>
+                <span class="card__action">
+                    <button style="color: white;" onclick="opencennect()"><i class="fa fa-github"
+                            onmouseover="this.style.color=`#46cf9d`;" onmouseout="this.style.color='grey';"
+                            style="font-size:2rem;color:grey"></i></button>
+                </span>
+            </a>
+
+            <a href="#" class="card" data-aos="fade-up">
+                <img src="./images/logo.jpg" class="card__img">
+                <span class="card__footer">
+                    <span>EnjoyEat</span>
+                    <span>React, ExpressJS, NodeJS, MongoDB</span>
+                </span>
+                <span class="card__action">
+                    <button style="color: white;" onclick="openeat()"><i class="fa fa-github"
+                            onmouseover="this.style.color=`#46cf9d`;" onmouseout="this.style.color='grey';"
+                            style="font-size:2rem;color:grey"></i></button>
+                </span>
+            </a>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-white bg-gray-900 mt-24">
+        <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
+            <div class="md:flex md:justify-between">
+                <div class="mb-6 md:mb-0">
+                    <a href="" class="flex items-center">
+                        <img src="./images/Kavan-logo.png" width="170" style="filter: invert(100%);" alt="">
+                    </a>
+                </div>
+                <div class="flex gap-x-24 self-center flex-center ">
+                    <div>
+                        <h2 class="mb-6 text-sm font-semibold text-gray-100 uppercase text-white">Usefull links</h2>
+
+                        <ul class="text-gray-500 dark:text-gray-400 font-medium flex gap-x-4 ">
+                            <li class="mb-4">
+                                <a href="./images/KAVAN BAKORI.pdf" download="KAVAN BAKORI"
+                                    class="hover:text-green-500">Download CV</a>
+                            </li>
+                            <li>
+                                <a href="#About me" class="hover:text-green-500">About me</a>
+                            </li>
+                            <li>
+                                <a href="#Services" class="hover:text-green-500">Services</a>
+                            </li>
+                            <li>
+                                <a href="#Projects" class="hover:text-green-500">Projects</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h2 class="mb-6 text-sm font-semibold text-gray-100 uppercase text-white">Follow me</h2>
+                        <ul class="text-gray-500 dark:text-gray-400 font-medium flex gap-x-4 ">
+                            <li>
+                                <a href="https://www.linkedin.com/in/kavan-bakori-b7591b25b/"
+                                    class="hover:text-blue-500">Linkedin</a>
+                            </li>
+                            <li class="mb-4">
+                                <a href="https://github.com/KavanBakori/" class="hover:text-blue-500 ">Github</a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/_kavan_99/?hl=en"
+                                    class="hover:text-blue-500">Instagram</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700" />
+            <div class="sm:flex sm:items-center sm:justify-between">
+                <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2024 <a href=""
+                        class="hover:underline">Kavan Bakori</a>. All Rights Reserved.
+                </span>
+
+
+
+                <div class="flex mt-4 sm:justify-center sm:mt-0">
+                    <a href="https://www.instagram.com/_kavan_99/?hl=en"><i class="fa fa-instagram"
+                            onmouseover="this.style.color=`#e76a62`;" onmouseout="this.style.color='grey';"
+                            style="font-size:1.5rem;color:grey;margin-inline: 10px;"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/kavan-bakori-b7591b25b/"> <i class="fa fa-linkedin"
+                            onmouseover="this.style.color=`#2563eb`;" onmouseout="this.style.color='grey';"
+                            style="font-size:1.5rem;color:grey"></i>
+                    </a>
+                    <a href="https://github.com/KavanBakori/"> <i class="fa fa-github"
+                            onmouseover="this.style.color=`#46cf9d`;" onmouseout="this.style.color='grey';"
+                            style="font-size:1.5rem;color:grey;margin-inline: 10px;"></i>
+                    </a>
+                    <a href="mailto:kavan2269@gmail.com"> <i class="fa fa-envelope"
+                            onmouseover="this.style.color=`#FFA500`;" onmouseout="this.style.color='grey';"
+                            style="font-size:1.5rem;color:grey;"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        // AOS.init();
+        function openeat() {
+            window.location.href = "https://github.com/KavanBakori/enjoyeat";
+        }
+        function opencennect() {
+            window.location.href = "https://github.com/KavanBakori/Connectify";
+        }
+
+        AOS.init({
+            duration: 1000,
+            offset: 100,
+        });
+    </script>
+</body>
+</html>
